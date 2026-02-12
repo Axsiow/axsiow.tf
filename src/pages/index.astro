@@ -18,68 +18,68 @@ const { Content: AboutContent } = await render(aboutEntry);
 ---
 
 <Layout
-    title={`${siteConfig.name} - Portfolio`}
-    description={siteConfig.description}
+        title={`${siteConfig.name} - Portfolio`}
+        description={siteConfig.description}
 >
-  <main>
-    <!-- Hero Section (Always visible) -->
-    <Hero
-      name={siteConfig.name}
-      title={siteConfig.title}
-      description={siteConfig.description}
-      avatar={bloomfolioLogo}
-      location={siteConfig.location}
-      socialLinks={siteConfig.socialLinks}
-    />
-
-    <!-- About Section -->
-    {
-      siteConfig.sections.about && (
-        <About
-          title={aboutEntry.data.title}
-          photo={aboutEntry.data.photo}
-          Content={AboutContent}
+    <main>
+        <!-- Hero Section (Always visible) -->
+        <Hero
+            name={siteConfig.name}
+            title={siteConfig.title}
+            description={siteConfig.description}
+            avatar={bloomfolioLogo}
+            location={siteConfig.location}
+            socialLinks={siteConfig.socialLinks}
         />
-      )
-    }
 
-    <!-- Projects Section -->
-    {siteConfig.sections.projects && <Projects />}
+        <!-- About Section -->
+        {
+            siteConfig.sections.about && (
+                <About
+                    title={aboutEntry.data.title}
+                    photo={aboutEntry.data.photo}
+                    Content={AboutContent}
+                />
+            )
+        }
 
-    <!-- Blog Section -->
-    {siteConfig.sections.blog && <Blog />}
+        <!-- Projects Section -->
+        {siteConfig.sections.projects && <Projects />}
 
-    <!-- Work Experience Section -->
-    {
-      siteConfig.sections.work && (
-        <Timeline
-          collection="work"
-          variant="timeline"
-          color="primary"
-          icon={Briefcase}
-          sectionTitle="Work Experience"
-        />
-      )
-    }
+        <!-- Blog Section -->
+        {siteConfig.sections.blog && <Blog />}
 
-    <!-- Education Section -->
-    {
-      siteConfig.sections.education && (
-        <Timeline
-          collection="education"
-          variant="list"
-          color="secondary"
-          backgroundColor="base-300"
-          icon={GraduationCap}
-          sectionTitle="Education"
-        />
-      )
-    }
+        <!-- Work Experience Section -->
+        {
+            siteConfig.sections.work && (
+                <Timeline
+                    collection="work"
+                    variant="timeline"
+                    color="primary"
+                    icon={Briefcase}
+                    sectionTitle="Work Experience"
+                />
+            )
+        }
 
-    <!-- Hackathons Section -->
-    {siteConfig.sections.hackathons && <Hackathons />}
+        <!-- Education Section -->
+        {
+            siteConfig.sections.education && (
+                <Timeline
+                    collection="education"
+                    variant="list"
+                    color="secondary"
+                    backgroundColor="base-300"
+                    icon={GraduationCap}
+                    sectionTitle="Education"
+                />
+            )
+        }
 
-    <!-- Contact Section -->
-    {siteConfig.sections.contact && <Contact />}
-  </main>
+        <!-- Hackathons Section -->
+        {siteConfig.sections.hackathons && <Hackathons />}
+
+        <!-- Contact Section -->
+        {siteConfig.sections.contact && <Contact />}
+    </main>
 </Layout>

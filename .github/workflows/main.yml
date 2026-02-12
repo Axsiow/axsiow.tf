@@ -1,26 +1,26 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [ "master" ]
+    push:
+        branches: [ "master" ]
 
 jobs:
-  build:
-    runs-on: self-hosted
+    build:
+        runs-on: self-hosted
 
-    steps:
-    - uses: actions/checkout@v2
+        steps:
+        - uses: actions/checkout@v2
 
-    - name: Use Node.js 18.x
-      uses: actions/setup-node@v2
-      with:
-        node-version: '18.x'
+        - name: Use Node.js 18.x
+            uses: actions/setup-node@v2
+            with:
+                node-version: '18.x'
 
-    - run: npm install
+        - run: npm install
 
-    - run: npm run build
+        - run: npm run build
 
-    - name: Deploy to server
-      run: |
-        cp -r axsiow.tf.v2/dist /var/www/axsiow.tf
-        systemctl restart nginx
+        - name: Deploy to server
+            run: |
+                cp -r axsiow.tf.v2/dist /var/www/axsiow.tf
+                systemctl restart nginx

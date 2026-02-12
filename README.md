@@ -77,13 +77,13 @@ All site configuration is centralized in `src/config.ts`. Edit this file to cust
 
 ```typescript
 export const siteConfig: SiteConfig = {
-  name: "Your Name",
-  title: "Your Professional Title",
-  description: "Brief description of your portfolio",
-  avatar: "../assets/your-avatar.png",
-  location: "Your City, Country",
-  email: "your@email.com",
-  // ...
+    name: "Your Name",
+    title: "Your Professional Title",
+    description: "Brief description of your portfolio",
+    avatar: "../assets/your-avatar.png",
+    location: "Your City, Country",
+    email: "your@email.com",
+    // ...
 };
 ```
 
@@ -93,13 +93,13 @@ Add your social media profiles:
 
 ```typescript
 socialLinks: {
-  github: "https://github.com/username",
-  linkedin: "https://linkedin.com/in/username",
-  twitter: "https://twitter.com/username",
-  bluesky: "https://bsky.app/profile/username",
-  instagram: "https://instagram.com/username",
-  youTube: "https://youtube.com/@username",
-  codetips: "https://codetips.cloud/u/username",
+    github: "https://github.com/username",
+    linkedin: "https://linkedin.com/in/username",
+    twitter: "https://twitter.com/username",
+    bluesky: "https://bsky.app/profile/username",
+    instagram: "https://instagram.com/username",
+    youTube: "https://youtube.com/@username",
+    codetips: "https://codetips.cloud/u/username",
 }
 ```
 
@@ -109,13 +109,13 @@ Control which sections appear on your homepage:
 
 ```typescript
 sections: {
-  about: true,      // About section
-  projects: true,   // Projects showcase
-  blog: true,       // Latest blog posts (shows 3 most recent)
-  work: true,       // Work experience timeline
-  education: true,  // Education history
-  hackathons: true, // Hackathon participation
-  contact: true,    // Contact section
+    about: true,      // About section
+    projects: true,   // Projects showcase
+    blog: true,       // Latest blog posts (shows 3 most recent)
+    work: true,       // Work experience timeline
+    education: true,  // Education history
+    hackathons: true, // Hackathon participation
+    contact: true,    // Contact section
 }
 ```
 
@@ -137,12 +137,12 @@ Configure the floating action button menu:
 
 ```typescript
 extraLinks: {
-  enable: true,
-  links: [
-    { link: "/blog/guide", icon: BookOpen, label: "Guide" },
-    { link: "/resume.pdf", icon: FileUser, label: "Resume" },
-    // Add more links...
-  ],
+    enable: true,
+    links: [
+        { link: "/blog/guide", icon: BookOpen, label: "Guide" },
+        { link: "/resume.pdf", icon: FileUser, label: "Resume" },
+        // Add more links...
+    ],
 }
 ```
 
