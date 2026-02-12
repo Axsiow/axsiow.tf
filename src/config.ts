@@ -93,10 +93,10 @@ export interface SiteConfig {
  */
 export const siteConfig: SiteConfig = {
     name: "👩‍💻 Enzo 'Axsiow' Fogliano",
-    title: "Ingénieur réseau, systeme et sécurité.",
+    title: "Ingénieur réseau, système et sécurité.",
     description:
         "",
-    avatar: "../public/images/avatars/portrait.png",
+    avatar: "../public/images/avatars/portrait.webp",
     location: "🇫🇷 France",
     email: "contact@axsiow.tf",
     socialLinks: {

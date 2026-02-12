@@ -14,6 +14,9 @@ import bloomfolioLogo from "../assets/bloomfolio.png";
 
 // Load about content
 const aboutEntry = await getEntry("about", "about");
+if (!aboutEntry) {
+    throw new Error('Content entry "about" not found');
+}
 const { Content: AboutContent } = await render(aboutEntry);
 ---
 
