@@ -1,0 +1,8 @@
+
+import __ASTRO_IMAGE_IMPORT_wlkGn from "./placeholder-blog.png?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fembed-examples.mdx";
+import __ASTRO_IMAGE_IMPORT_ZCjpG4 from "../placeholder-blog.png?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fguides%2Fbloomfolio-complete-guide.mdx";
+import __ASTRO_IMAGE_IMPORT_juGHz from "../placeholder-blog.png?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fguides%2Fcontent-collections-guide.mdx";
+import __ASTRO_IMAGE_IMPORT_bYXcF from "../placeholder-blog.png?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fguides%2Fmarkdown-guide.mdx";
+import __ASTRO_IMAGE_IMPORT_Z2ckNSy from "./blog_post.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fwelcome-post.md";
+export default new Map([["./placeholder-blog.png?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fembed-examples.mdx", __ASTRO_IMAGE_IMPORT_wlkGn], ["../placeholder-blog.png?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fguides%2Fbloomfolio-complete-guide.mdx", __ASTRO_IMAGE_IMPORT_ZCjpG4], ["../placeholder-blog.png?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fguides%2Fcontent-collections-guide.mdx", __ASTRO_IMAGE_IMPORT_juGHz], ["../placeholder-blog.png?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fguides%2Fmarkdown-guide.mdx", __ASTRO_IMAGE_IMPORT_bYXcF], ["./blog_post.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Fwelcome-post.md", __ASTRO_IMAGE_IMPORT_Z2ckNSy]]);
+		
