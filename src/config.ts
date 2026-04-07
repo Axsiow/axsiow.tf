@@ -16,6 +16,7 @@ export interface SocialLinks {
     linkedin?: string;
     twitter?: string;
     bluesky?: string;
+    orcid?: string;
 }
 
 /**
@@ -104,10 +105,11 @@ export const siteConfig: SiteConfig = {
         linkedin: "https://linkedin.com/in/enzofogliano",
         twitter: "https://twitter.com/astro_axsiow",
         bluesky: "https://bsky.app/profile/axsiow.tf",
+        orcid: "https://orcid.org/0009-0008-9442-6438",
     },
     enableThemeSelector: true,
     extraLinks: {
-        enable: true,
+        enable: false,
         links: [
         {
             link: "/blog/guides/bloomfolio-complete-guide",
@@ -125,7 +127,7 @@ export const siteConfig: SiteConfig = {
             label: "Markdown Guide",
         },
         {
-            link: "https://github.com/lauroguedes/bloomfolio",
+            link: "https://github.com/axsiow/axsiow.tf",
             icon: CodeXml,
             label: "GitHub Repo",
         },
