@@ -1,13 +1,14 @@
 ---
-title: "Code Tips Platform"
-description: "A centralized platform for storing and sharing code snippets, enabling developers to create, discover, and manage code examples across 100+ programming languages."
+title: "OCULUS Monitoring"
+description: "OCULUS est un système centralisé de surveillance et d'alerte qui teste tous les services sur les nœuds EIDA. OCULUS offre une vue d'ensemble de l'état des services et des indicateurs permettant de suivre l'évolution de leur qualité."
 image: "https://api.dicebear.com/9.x/glass/svg?seed=Jocelyn"
-startDate: "2025-06-01"
-skills: ["Laravel", "Inertia JS", "Vue 3", "TypeScript", "Monaco Editor", "Tailwind CSS"]
-demoLink: "https://codetips.cloud"
+startDate: "2025-01-01"
+skills: ["python", "zabbix", "grafana", "kubernetes", "git", "mkdocs"]
+sourceLink: "https://github.com/EIDA/oculus-monitoring-backend"
+demoLink: "https://eida-oculus.orfeus-eu.org/"
 ---
 
-## About Code Tips
+<!-- ## About Code Tips
 
 Code Tips is a community-driven platform designed to help developers share, discover, and manage code snippets efficiently. Built with the philosophy that knowledge sharing accelerates learning, it provides a centralized repository for code examples across multiple programming languages.
 
@@ -70,4 +71,4 @@ Code Tips serves as a valuable resource for developers of all skill levels - fro
 - Document and organize their own code library
 - Share knowledge and contribute to the developer community
 
-The platform emphasizes collaboration and knowledge exchange, making programming resources more accessible to everyone.
+The platform emphasizes collaboration and knowledge exchange, making programming resources more accessible to everyone. -->

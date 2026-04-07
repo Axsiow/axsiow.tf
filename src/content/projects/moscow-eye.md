@@ -1,14 +1,13 @@
 ---
-title: "Screencial"
-description: "A web application enabling users to generate personalized, shareable screenshots for social media with customizable templates and design elements."
+title: "Moscow Eye"
+description: "Moscow Eye est un bot discord."
 image: "https://api.dicebear.com/9.x/glass/svg?seed=Brooklynn"
-startDate: "2023-07-01"
-endDate: "2024-06-31"
-skills: ["Laravel", "Livewire", "Stripe", "Tailwind CSS"]
-demoLink: "https://screencial.art"
+startDate: "2022-11-01"
+skills: ["Javascript", "Node JS", "discord.js"]
+sourceLink: "https://github.com/Axsiow/moscow-eye"
 ---
 
-## Overview
+<!-- ## Overview
 
 Screencial is a web-based platform designed to help users create stunning, professional-looking screenshots for social media posts. With an intuitive interface and powerful customization options, it enables content creators, marketers, and developers to generate eye-catching visuals that enhance their online presence.
 
@@ -56,4 +55,4 @@ Built with **Laravel** and **Livewire**, Screencial delivers a reactive, dynamic
 
 ## Impact
 
-Screencial has become a go-to tool for content creators looking to elevate their social media presence with professional, branded screenshots that stand out in crowded feeds.
+Screencial has become a go-to tool for content creators looking to elevate their social media presence with professional, branded screenshots that stand out in crowded feeds. -->

@@ -1,14 +1,14 @@
 ---
-title: "Mary UI Laravel Starter Kit"
-description: "A contemporary, production-ready Laravel starter kit with integrated Livewire Volt and Mary UI components. Designed to expedite web application development with pre-built authentication, user administration, and developer-friendly tooling."
+title: "axsiow.tf"
+description: "Personal website"
 image: "https://api.dicebear.com/9.x/glass/svg?seed=Alexander"
-startDate: "2024-12-07"
-skills: ["Laravel", "Livewire", "Mary UI", "DaisyUI", "Tailwind CSS", "Pest"]
-sourceLink: "https://github.com/lauroguedes/mary-ui-starter-kit"
-demoLink: "https://github.com/lauroguedes/mary-ui-starter-kit"
+startDate: "2023-03-01"
+skills: ["Astro.js", "Node JS", "Javascript", "TypeScript"]
+sourceLink: "https://github.com/axsiow/axsiow.tf"
+demoLink: "https://axsiow.tf"
 ---
 
-## Project Overview
+<!-- ## Project Overview
 
 Mary UI Laravel Starter Kit is a comprehensive, production-ready foundation for building modern web applications. It combines the robustness of Laravel 12.x with the elegance of Mary UI and the reactivity of Livewire Volt, providing developers with everything they need to kickstart their next project.
 
@@ -111,4 +111,4 @@ This launches the development server, queue worker, log monitor, and Vite with h
 
 ## Open Source
 
-This project is open source under the MIT License and welcomes contributions from the community. Visit the GitHub repository to report issues, suggest features, or contribute code.
+This project is open source under the MIT License and welcomes contributions from the community. Visit the GitHub repository to report issues, suggest features, or contribute code. -->
