@@ -1,7 +1,7 @@
 ---
 title: "Space Generation Advisory Council (SGAC)"
 subtitle: ""
-logo: "/public/images/logos/logoSGAC.jpg"
+logo: "/images/logos/logoSGAC.jpg"
 startDate: "2022-01-09"
 link: "https://spacegeneration.org/"
 ---

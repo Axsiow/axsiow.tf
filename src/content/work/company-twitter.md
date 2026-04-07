@@ -1,7 +1,7 @@
 ---
 title: "Twitter"
 subtitle: ""
-logo: "/public/images/logos/logoTwitter.jpg"
+logo: "/images/logos/logoTwitter.jpg"
 startDate: "2016-01-01"
 endDate: "2017-01-11"
 link: "https://twitter.com"

@@ -26,7 +26,7 @@ const { name, title, description, avatar, location, socialLinks } = Astro.props;
     <div class="hero-content flex-col lg:flex-row-reverse max-w-7xl gap-8">
         <div class="avatar">
             <div
-                class="w-48 ring-primary ring-offset-base-100 rounded-full ring-2 ring-offset-2"
+                class="w-96"
             >
                 <Image src={avatar} alt={name} />
             </div>
@@ -103,6 +103,8 @@ const { name, title, description, avatar, location, socialLinks } = Astro.props;
                         {socialLinks.bluesky && (
                             <a
                                 href={socialLinks.bluesky}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 class="btn btn-circle btn-ghost"
                                 aria-label="Bluesky"
                             >
@@ -120,6 +122,8 @@ const { name, title, description, avatar, location, socialLinks } = Astro.props;
                         {socialLinks.instagram && (
                             <a
                                 href={`${socialLinks.instagram}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 class="btn btn-circle btn-ghost"
                                 aria-label="Instagram"
                             >
@@ -137,6 +141,8 @@ const { name, title, description, avatar, location, socialLinks } = Astro.props;
                         {socialLinks.youTube && (
                             <a
                                 href={socialLinks.youTube}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 class="btn btn-circle btn-ghost"
                                 aria-label="YouTube"
                             >
@@ -154,6 +160,8 @@ const { name, title, description, avatar, location, socialLinks } = Astro.props;
                         {socialLinks.codetips && (
                             <a
                                 href={socialLinks.codetips}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 class="btn btn-circle btn-ghost"
                                 aria-label="CodeTips"
                             >

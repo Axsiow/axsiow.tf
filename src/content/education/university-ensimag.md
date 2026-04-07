@@ -1,7 +1,7 @@
 ---
 title: "Grenoble INP - Ensimag"
 subtitle: "Master 2 Réseaux Informatiques d’Entreprise (RIE) - S9 validé "
-logo: "/public/images/logos/logo_ENSIMAG.png"
+logo: "/images/logos/logo_ENSIMAG.png"
 startDate: "2022-01-09"
 endDate: "2024-01-09"
 link: "https://ensimag.grenoble-inp.fr/fr/formation/master-informatique-parcours-reseaux-d-entreprise-rsc-en-alternance"

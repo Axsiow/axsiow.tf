@@ -1,7 +1,7 @@
 ---
 title: "STMicroelectronics"
 subtitle: "Apprenti ingénieur réseau (Alternance)"
-logo: "/public/images/logos/logoST.jpg"
+logo: "/images/logos/logoST.jpg"
 startDate: "2020-10-01"
 endDate: "2024-08-01"
 link: "https://st.com"

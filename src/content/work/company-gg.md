@@ -1,7 +1,7 @@
 ---
 title: "Green-Got"
 subtitle: "Associé"
-logo: "/public/images/logos/logoGG.jpg"
+logo: "/images/logos/logoGG.jpg"
 startDate: "2023-01-04"
 link: "https://green-got.com"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "CNRS - Laboratoire ISTerre"
 subtitle: "Ingénieur d'études (CDD)"
-logo: "/public/images/logos/logoCNRS.png"
+logo: "/images/logos/logoCNRS.png"
 startDate: "2024-09-01"
 link: "https://www.isterre.fr/"
 ---

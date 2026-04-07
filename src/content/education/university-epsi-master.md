@@ -1,7 +1,7 @@
 ---
 title: "EPSI Grenoble"
 subtitle: "Master 1 d'ingénierie Expert en Informatique et Système d’Information"
-logo: "/public/images/logos/logo_EPSI_white.png"
+logo: "/images/logos/logo_EPSI_white.png"
 startDate: "2021-01-09"
 endDate: "2022-01-09"
 link: "https://www.epsi.fr/programmes/msc-expert-en-cybersecurite-niveau-bac-5"

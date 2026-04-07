@@ -96,8 +96,8 @@ export const siteConfig: SiteConfig = {
     title: "Ingénieur réseau, système et sécurité.",
     description:
         "",
-    avatar: "../public/images/avatars/portrait.webp",
-    location: "🇫🇷 France",
+    avatar: "",
+    location: "🇫🇷 Grenoble, France",
     email: "contact@axsiow.tf",
     socialLinks: {
         github: "https://github.com/axsiow",

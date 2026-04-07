@@ -1,7 +1,7 @@
 ---
 title: "EPSI Grenoble"
 subtitle: "Bachelor SYSOPS/Administrateur Système Réseaux et Bases de Données "
-logo: "/public/images/logos/logo_EPSI_white.png"
+logo: "/images/logos/logo_EPSI_white.png"
 startDate: "2018-01-09"
 endDate: "2021-01-08"
 link: "https://www.epsi.fr/programmes/bachelor-sys-ops"
