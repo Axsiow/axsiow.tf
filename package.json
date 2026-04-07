@@ -1,37 +1,19 @@
 {
-  "name": "astrolus",
+  "name": "portfolio",
+  "type": "module",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.16.10",
-    "astro-font": "^0.0.72"
-  },
-  "devDependencies": {
-    "@astrojs/tailwind": "^1.0.0"
+    "@astrojs/mdx": "^4.3.9",
+    "@lucide/astro": "^0.552.0",
+    "@tailwindcss/vite": "^4.1.16",
+    "astro": "^5.15.2",
+    "daisyui": "^5.3.10",
+    "tailwindcss": "^4.1.16"
   }
-}
-    "name": "portfolio",
-    "type": "module",
-    "version": "0.0.1",
-    "scripts": {
-        "dev": "astro dev",
-        "build": "astro build",
-        "preview": "astro preview",
-        "astro": "astro"
-    },
-    "dependencies": {
-        "@astrojs/mdx": "^4.3.9",
-        "@lucide/astro": "^0.552.0",
-        "@tailwindcss/vite": "^4.1.16",
-        "astro": "^5.15.2",
-        "daisyui": "^5.3.10",
-        "tailwindcss": "^4.1.16"
-    }
 }
