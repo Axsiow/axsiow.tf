@@ -7,4 +7,4 @@ endDate: "2017-01-11"
 link: "https://twitter.com"
 ---
 
-• Traducteur sur la plateforme de traduction de Twitter (EN > FR) qui a fermé en novembre 2017. 
+• Traducteur sur la plateforme de traduction de Twitter (EN > FR) qui a fermé en novembre 2017.
